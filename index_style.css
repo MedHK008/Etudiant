@@ -6,12 +6,10 @@ body {
     font-family: sans-serif;
 }
 
-
-
 #welcome {
     background-color: white;
     border-radius: 33px;
-    background: #e0e0e0;
+    background: #ffffff;
     box-shadow: 15px 15px 0px #ffffff, -15px -15px 0px #ffffff;
     padding: 20px;
     text-align: center;
@@ -39,6 +37,10 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+table{
+    background: #ffffff;
+    text-align: center;
+}
 
 /* CSS */
 .button-89 {
