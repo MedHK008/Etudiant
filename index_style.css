@@ -6,26 +6,31 @@ body {
     font-family: sans-serif;
 }
 
+
+
 #welcome {
     background-color: white;
-    justify-content: center;
-    align-items: center;
     border-radius: 33px;
     background: #e0e0e0;
-    box-shadow:  15px 15px 0px #ffffff,-15px -15px 0px #ffffff;
-    border-radius: 25px;
+    box-shadow: 15px 15px 0px #ffffff, -15px -15px 0px #ffffff;
     padding: 20px;
-    z-index: 1;
     text-align: center;
     width: 40%;
-    padding: 20px;
-    border: #080908 solid 1px;
+    border: 1px solid #080908;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    background: #7f7979;
+}
+
+/* Optional: Add margin to #welcome for spacing */
+#welcome {
+    margin: auto; /* This centers horizontally */
+}
+
+/* Optional: Add margin-top to #welcome for vertical centering */
+#welcome {
+    margin-top: auto; /* This centers vertically */
 }
 
 #welcome:hover {
@@ -39,8 +44,7 @@ body {
 .button-89 {
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
-  --color: #373B44;
-  
+  --color: #a4adc3;
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
   color: var(--color);
   --_p: var(--s);
@@ -51,9 +55,7 @@ body {
   outline: var(--b) solid #0000;
   outline-offset: .6em;
   font-size: 16px;
-
   border: 0;
-
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
